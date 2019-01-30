@@ -24,7 +24,7 @@
   white-space: nowrap;
   margin: 0 auto;
   letter-spacing: .15em;
-  animation: typing 1.5s steps(20, end) forwards
+  animation: typing 1.5s steps(20, end) forwards;
 }
 @keyframes typing {
   0% { width: 0 }

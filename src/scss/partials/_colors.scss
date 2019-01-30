@@ -1,9 +1,13 @@
+$primary: #56AAD7;
+$grey: #EFEFEF;
+
+
 .bkg-primary {
-  background-color: #56AAD7 !important;
+  background-color: $primary !important;
 }
 .white {
   color: white !important;
 }
 .primary {
-  color: #56AAD7 !important;
+  color: $primary !important;
 }
