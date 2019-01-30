@@ -1,0 +1,81 @@
+#header {
+  height: 250px;
+}
+.avatar {
+  left: 0;
+  height: 100%;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+}
+.avatar-img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+.particles-js-canvas-el {
+  position: absolute;
+  z-index: 2;
+}
+
+.typewriter h4 {
+  overflow: hidden;
+  border-right: .15em solid black; /* The typwriter cursor */
+  white-space: nowrap;
+  margin: 0 auto;
+  letter-spacing: .15em;
+  animation: typing 1.5s steps(20, end) forwards
+}
+@keyframes typing {
+  0% { width: 0 }
+  99.99% {
+    border-right: .15em solid black;
+    width: 100%;
+  }
+  100% { border: 0px; }
+}
+
+
+
+@media only screen and (min-width: 600px) {
+  #header {
+    height: 500px;
+    transition: height .4s ease-in-out;
+  }
+
+  .avatar-img {
+    width: 250px;
+    height: 250px;
+    margin-right: 10px;
+    transition: height .5s ease-in-out, width .5s ease-in-out;
+  }
+
+  .semi-mini#header {
+    height: 300px;
+  }
+  .semi-mini .avatar-img {
+    height: 150px;
+    width: 150px;
+  }
+  .semi-mini #header-name {
+    font-size: 2.5rem;
+  }
+  .semi-mini #header-profession {
+    font-size: 1.5rem;
+  }
+
+  .mini#header {
+    height: 100px;
+  }
+  .mini .avatar-img {
+    height: 75px;
+    width: 75px;
+  }
+  .mini #header-name {
+    font-size: 2rem;
+    margin-bottom: 0px;
+  }
+  .mini #header-profession {
+    font-size: 1rem;
+  }
+}

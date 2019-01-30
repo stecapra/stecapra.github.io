@@ -1,0 +1,36 @@
+.flex-center {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+.flex-space-between {
+  display: flex;
+  justify-content: space-between;
+}
+.flex-space-around {
+  display: flex;
+  justify-content: space-around;
+}
+.flex-column {
+  flex-direction: column;
+}
+
+.flex-right {
+  display: flex;
+  justify-content: flex-end;
+}
+.flex-vertical-center {
+  display: flex;
+  align-items: center;
+}
+
+.full-width {
+  width: 100%;
+}
+
+.relative {
+  position: relative;
+}
+.absolute {
+  position: absolute;
+}

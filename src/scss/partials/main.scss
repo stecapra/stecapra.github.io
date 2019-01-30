@@ -1,0 +1,36 @@
+body {
+  background: #333639 !important;
+  margin-bottom: 50px !important;
+}
+h1, h2, h3, h4, h5, span {
+  color: #333639 !important;
+  font-family: "archivo", sans-serif;
+}
+
+
+
+.wow {
+  visibility: hidden;
+}
+
+@import "variables";
+@import "colors";
+@import "display";
+@import "hover";
+@import "typography";
+
+@import "components/main";
+
+
+
+.section-header-container {
+  display: block;
+  border-bottom: 1px solid black;
+}
+.section-header {
+  font-size: 40px;
+  font-weight: bold;
+}
+.section-intestation {
+  font-weight: bold;
+}
