@@ -1,1 +1,9 @@
-@import './partials/main';
+@import '~foundation-sites/scss/util/util';
+@import './partials/_settings';
+@import '~foundation-sites/scss/foundation';
+@include foundation-everything($prototype: true)
+@include foundation-flex-classes
+@include foundation-flex-grid
+
+@import 'partials/main';
+

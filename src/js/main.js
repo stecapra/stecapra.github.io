@@ -119,12 +119,14 @@ particlesJS('header',
     }
 );
 
-/*wow = new WOW({
+const {WOW} = require('wowjs');
+var wow = new WOW({
     animateClass: 'animated',
     offset: 100,
-    mobile: false
+    mobile: false,
+    live: false
 });
-wow.init()*/
+wow.init()
 
 
 // When the user scrolls down 50px from the top of the document, resize the header's font size

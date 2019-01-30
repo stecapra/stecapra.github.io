@@ -6,11 +6,16 @@ module.exports = {
     },
     module: {
         rules: [{
-            test: /\.scss$/,
+            test: /\.(?:sass|scss)$/,
             use: [
                 "style-loader", // creates style nodes from JS strings
                 "css-loader", // translates CSS into CommonJS
-                "sass-loader" // compiles Sass to CSS, using Node Sass by default
+                {
+                    loader: 'sass-loader',
+                    query: {
+                        includePaths: [__dirname +  'node_modules']
+                    }
+                }
             ]
         }]
     }

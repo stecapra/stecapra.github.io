@@ -50,6 +50,11 @@
     transition: height .5s ease-in-out, width .5s ease-in-out;
   }
 
+
+  #header-name, #header-profession {
+    transition: font-size .5s ease-in-out;
+  }
+
   .semi-mini#header {
     height: 300px;
   }
