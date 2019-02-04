@@ -1,13 +1,26 @@
-$primary: #56AAD7;
-$grey: #EFEFEF;
-
+$primary: #2196f3;
+$primary-dark: #0069c0;
+$primary-light: #6ec6ff;
+$opposite: #EFEFEF;
 
 .bkg-primary {
   background-color: $primary !important;
+}
+.bkg-opposite {
+  background-color: $opposite !important;
 }
 .white {
   color: white !important;
 }
 .primary {
   color: $primary !important;
+}
+.primary-dark {
+  color: $primary-dark !important;
+}
+.primary-light {
+  color: $primary-light !important;
+}
+.opposite {
+  color: $opposite !important;
 }

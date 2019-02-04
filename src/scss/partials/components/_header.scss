@@ -20,7 +20,7 @@
 
 .typewriter h4 {
   overflow: hidden;
-  border-right: .15em solid black; /* The typwriter cursor */
+  border-right: .15em solid $opposite; /* The typwriter cursor */
   white-space: nowrap;
   margin: 0 auto;
   letter-spacing: .15em;
@@ -29,7 +29,7 @@
 @keyframes typing {
   0% { width: 0 }
   99.99% {
-    border-right: .15em solid black;
+    border-right: .15em solid $opposite;
     width: 100%;
   }
   100% { border: 0px; }
