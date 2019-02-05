@@ -24,8 +24,14 @@
 }
 
 .basic-info {
-  animation: basic-info-open 1s ease-in-out forwards;
   border-top: 10px solid $primary;
   border-bottom: 10px solid $primary;
   overflow: hidden;
+  width: 0;
+  max-height: 0;
+
+  &.start-animation {
+    animation: basic-info-open 1s ease-in-out forwards;
+  }
 }
+

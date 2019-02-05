@@ -140,6 +140,7 @@ function scrollFunction() {
         document.getElementById("header").classList.add("semi-mini")
         document.getElementById("header").classList.remove("mini")
         document.getElementById("header-container").classList.add("flex-column")
+        document.getElementById("basic-info").classList.add("start-animation")
     } else {
         document.getElementById("header").classList.remove("semi-mini")
     }
