@@ -7,8 +7,8 @@
   "author": "<ste.capra95@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "webpack": "webpack",
-    "dev": "webpack-dev-server"
+    "dev": "webpack-dev-server",
+    "prod": "webpack"
   },
   "devDependencies": {
     "babel-core": "^6.26.3",
